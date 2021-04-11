@@ -14,8 +14,8 @@ $("#month_year").text( getMonthText(thisMonth) + " " + today.getFullYear() );
 var lastDayofMonth = getLastDayofMonth(thisMonth);
 var rows = $("#calendar").html();
 
-var date; // the current date; eg, the 1st, the 22nd, etc
-var day;  // the day of the week; eg, Sat, Sun, etc
+var date; 
+var day;  
 var start;
 
 // loop through the number of days in the month
